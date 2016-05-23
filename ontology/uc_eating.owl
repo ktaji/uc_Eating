@@ -44,6 +44,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#allowability"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#agricultrual_feast_meals -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#agricultrual_feast_meals">
@@ -56,6 +64,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#alcohol">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#allowability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#allowability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access"/>
     </owl:Class>
     
 
@@ -104,6 +120,190 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_FIL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_FIL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_convenience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_convenience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_family_support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_family_support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_guilt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_guilt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_history_of_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_history_of_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_hypoplasia_of_mammary_gland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_hypoplasia_of_mammary_gland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_lack_of_milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_lack_of_milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_mastitis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_mastitis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_radiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_radiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_separation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_separation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_work_schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_work_schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_external_stimuli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior"/>
     </owl:Class>
     
 
@@ -748,6 +948,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#economic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#edenic -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#edenic">
@@ -792,6 +1000,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#friend_social_gathering_meal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#soical_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#geographic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#geographic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access"/>
     </owl:Class>
     
 
@@ -980,10 +1196,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#race -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#race">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#allowability"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#regulated_eating_behavior -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#regulated_eating_behavior">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#religion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#religion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#allowability"/>
     </owl:Class>
     
 
@@ -1032,6 +1264,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#snacking_behavior">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_access"/>
     </owl:Class>
     
 
@@ -1104,6 +1344,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_metabolic/disease_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_metabolic/disease_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_influenced_by_internal_stimuli"/>
     </owl:Class>
 </rdf:RDF>
 
