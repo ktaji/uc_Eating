@@ -1,26 +1,18 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <rdf:RDF xmlns="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#"
      xml:base="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11">
-        <owl:imports rdf:resource="file:/imports/bfo_import.owl"/>
-        <owl:imports rdf:resource="file:/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="file:/imports/envo_import.owl"/>
         <owl:imports rdf:resource="file:/imports/ro_import.owl"/>
         <owl:imports rdf:resource="file:/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/envo_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/chebi_import.owl"/>
     </owl:Ontology>
     
 
@@ -60,6 +52,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#alcohol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#alcohol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anniversary_celebratory_meal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anniversary_celebratory_meal">
@@ -88,6 +96,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#birthday_celebratory_meal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#breastfeeding_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#caffeine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#caffeine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
     </owl:Class>
     
 
@@ -144,6 +168,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#consumption_behavior">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#behavior_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#cruciferous_vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#cruciferous_vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#dairy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#dairy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
     </owl:Class>
     
 
@@ -1012,6 +1052,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#spicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#spicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#anectodal_food_avoidance"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#vegan_eating_behavior -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#vegan_eating_behavior">
@@ -1061,5 +1109,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
 
