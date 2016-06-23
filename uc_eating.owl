@@ -111,10 +111,10 @@
         <Class IRI="#breastfeeding_influenced_by_family_support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_frustration"/>
+        <Class IRI="#wedding_celebratory_meal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#wedding_celebratory_meal"/>
+        <Class IRI="#eating_influenced_by_frustration"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_social_environment"/>
@@ -132,10 +132,10 @@
         <Class IRI="#vegetarian_eating_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_addiction"/>
+        <Class IRI="#eating_while_working_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_while_working_behavior"/>
+        <Class IRI="#eating_influenced_by_addiction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#caffeine"/>
@@ -147,10 +147,10 @@
         <Class IRI="#eating_influenced_by_regulation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#farming_process"/>
+        <Class IRI="#food_production_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#food_production_process"/>
+        <Class IRI="#farming_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#image"/>
@@ -159,10 +159,10 @@
         <Class IRI="#vegan_eating_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#involuntary_food_consumption"/>
+        <Class IRI="#cruciferous_vegetables"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cruciferous_vegetables"/>
+        <Class IRI="#involuntary_food_consumption"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_peer_pressure"/>
@@ -261,10 +261,10 @@
         <Class IRI="#Eating_influenced_by_body_size/type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#gathering_process"/>
+        <Class IRI="#eating_influenced_by_loneliness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_loneliness"/>
+        <Class IRI="#gathering_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#mid-day_snacking_behavior"/>
@@ -276,16 +276,16 @@
         <Class IRI="#allowability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#acquisition_process"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#edenic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#physiologically_self-regulated_eating_behavior"/>
+        <Class IRI="#acquisition_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#breath_monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physiologically_self-regulated_eating_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#breastfeeding_influenced_by_pain"/>
@@ -315,13 +315,13 @@
         <Class IRI="#eating_influenced_by_chronic_illness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#social"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#eating_influenced_by_fast_metabolic_rate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#social"/>
     </Declaration>
     <Declaration>
         <Class IRI="#morning_snacking_behavior"/>
@@ -333,10 +333,10 @@
         <Class IRI="#sounds"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#geographic"/>
+        <Class IRI="#economic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#economic"/>
+        <Class IRI="#geographic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#health_promoting_meal_behavior"/>
@@ -369,19 +369,19 @@
         <Class IRI="#eating_influenced_by_happiness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#plant-based_eating_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Eating_influenced_by_availability/eating_influenced_by_supply"/>
+        <Class IRI="#eating_while_running_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#consumption_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#video"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#eating_while_running_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_stress"/>
@@ -402,22 +402,22 @@
         <Class IRI="#food_acquisition_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#compensate_for_sleep"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#eating_while_yelling_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#suckling_behavior"/>
+        <Class IRI="#compensate_for_sleep"/>
     </Declaration>
     <Declaration>
         <Class IRI="#chemical_food_digestion_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#realtime_logging"/>
+        <Class IRI="#suckling_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#hunting_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realtime_logging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#performance_regulated_eating_behavior"/>
@@ -459,10 +459,10 @@
         <Class IRI="#feeding_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_accessibility"/>
+        <Class IRI="#calories"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#calories"/>
+        <Class IRI="#eating_influenced_by_accessibility"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_metabolic_rates"/>
@@ -480,10 +480,10 @@
         <Class IRI="#types"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#food_consumption_measurment_methods"/>
+        <Class IRI="#eating_while_reading_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_while_reading_behavior"/>
+        <Class IRI="#food_consumption_measurment_methods"/>
     </Declaration>
     <Declaration>
         <Class IRI="#realtime_monitoring"/>
@@ -510,10 +510,10 @@
         <Class IRI="#eating_influenced_by_transportation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_guilt"/>
+        <Class IRI="#eating_influenced_by_familial_pressure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_familial_pressure"/>
+        <Class IRI="#eating_influenced_by_guilt"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_hereditary_illness"/>
@@ -564,10 +564,10 @@
         <Class IRI="#dairy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#breastfeeding_influenced_by_guilt"/>
+        <Class IRI="#behavior_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#behavior_process"/>
+        <Class IRI="#breastfeeding_influenced_by_guilt"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eating_influenced_by_media"/>
@@ -579,22 +579,22 @@
         <Class IRI="#eating_influenced_by_embarrassment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fishing_process"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#slurp_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#promotion_celebratory_meal"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#fishing_process"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#blood_sugar_sensor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_while_laughing_behavior"/>
+        <Class IRI="#eating_influenced_by_internal_stimuli"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_influenced_by_internal_stimuli"/>
+        <Class IRI="#eating_while_laughing_behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#shopping_process"/>
@@ -660,10 +660,10 @@
         <Class IRI="#eating_influenced_by_anger"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#production_process"/>
+        <Class IRI="#eating_while_swimming_behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eating_while_swimming_behavior"/>
+        <Class IRI="#production_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#breastfeeding_influenced_by_FIL"/>
@@ -675,10 +675,10 @@
         <Class IRI="#secular_holiday_meals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#food_frequency_questionnaire"/>
+        <Class IRI="#gleaning_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#gleaning_process"/>
+        <Class IRI="#food_frequency_questionnaire"/>
     </Declaration>
     <Declaration>
         <Class IRI="#breastfeeding_influenced_by_hypoplasia_of_mammary_gland"/>
