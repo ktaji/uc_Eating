@@ -129,6 +129,9 @@
         <Class IRI="#eating_while_biking_behavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#consumption_of_home-cooked_meal_frequency"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Christian_holidays"/>
     </Declaration>
     <Declaration>
@@ -219,6 +222,9 @@
         <Class IRI="#food_production_process"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#consumption_of_fast_food_frequency"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#image"/>
     </Declaration>
     <Declaration>
@@ -277,6 +283,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#co-operative_faming_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consumption_of_frozen_food_frequency"/>
     </Declaration>
     <Declaration>
         <Class IRI="#commercial_farming_process"/>
@@ -1427,6 +1436,18 @@
         <Class IRI="#behavior_process"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#consumption_of_fast_food_frequency"/>
+        <Class IRI="#food_consumption_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumption_of_frozen_food_frequency"/>
+        <Class IRI="#food_consumption_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumption_of_home-cooked_meal_frequency"/>
+        <Class IRI="#food_consumption_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#consumption_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
@@ -1920,7 +1941,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#food_procurement_process"/>
-        <Class IRI="#consumption_behavior"/>
+        <Class IRI="#behavior_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#food_production_process"/>
@@ -2188,7 +2209,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#physical_food_preparement_process"/>
-        <Class IRI="#feeding_behavior"/>
+        <Class IRI="#behavior_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#physiological_recording"/>
